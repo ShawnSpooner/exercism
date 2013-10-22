@@ -21,7 +21,7 @@ defmodule Teenager do
       silent?(phrase)            -> "Fine. Be that way!"
       shouting?(phrase)          -> "Woah, chill out!"
       is_a_question?(phrase)     -> "Sure."
-      ELSE                       -> "Whatever."
+      true                       -> "Whatever."
     end
   end
 end
