@@ -9,7 +9,7 @@ defmodule SentenceRecognizer do
   end
 
   def silent?(phrase) do
-    String.strip(phrase) |> String.length == 0
+    String.strip(phrase) == ""
   end
 end
 
